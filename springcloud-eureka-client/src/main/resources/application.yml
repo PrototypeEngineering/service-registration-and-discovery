@@ -1,0 +1,12 @@
+spring.application.name: springcloud-eureka-client
+
+server.port: 8055
+
+
+eureka.client.register-with-eureka: true
+eureka.client.fetch-registry: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka/
+
